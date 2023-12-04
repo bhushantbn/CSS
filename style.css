@@ -1,0 +1,49 @@
+body{
+    /* background-color: chocolate; */
+}
+#p{
+    display:inline;
+    font-size: large;
+    text-decoration: underline;
+
+}
+#p1{
+    text-decoration: line-through;
+}
+section{
+    font-size: medium;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p,h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+p:hover{
+    background-color: burlywood;
+}
+p::first-letter{
+    color: orange;
+    font-variant: initial;
+}
+h2,h3,h4,h5,h6{
+    font-family: monospace;
+    text-align: center;
+}
+img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+h1:hover{
+    color:red;
+    cursor: pointer;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    outline: 1px saddlebrown;
+}

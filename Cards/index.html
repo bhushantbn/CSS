@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <a href="#news">News</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a class="active" href="#home">Home</a> 
+        </div>
+    </header>
+    <section class="carousel">
+        <button class="slider-button slider-button-prev" data-slide-direction="prev">&#8592</button>
+        <button class="slider-button slider-button-next" data-slide-direction="next">&#8594</button>
+        <ul class="slides">
+          <li class="slide" data-active-slide>
+            <img src="https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?w=1060&t=st=1670093487~exp=1670094087~hmac=0efe31cac4ad9457031ff3a8b14f9be760a038fae38f101b8a292c1f766e725e" alt="Nature Image #1" />
+          </li>
+          <li class="slide">
+            <img src="https://img.freepik.com/free-photo/vestrahorn-mountains-stokksnes-iceland_335224-667.jpg?w=1060&t=st=1670093535~exp=1670094135~hmac=27728351e326c808a35c161c98c1d8ff9e6328c4ceb471c2725c4cc3cf94c0c2" alt="Nature Image #2" />
+          </li>
+          <li class="slide">
+            <img src="https://img.freepik.com/free-photo/beautiful-shot-grassy-hills-covered-trees-near-mountains-dolomites-italy_181624-24400.jpg?w=900&t=st=1670093563~exp=1670094163~hmac=53dd76fac233cfc81416be6e48979f21ca375c70470fba4b50eea93c9e27cee9" alt="Nature Image #3" />
+          </li>
+        </ul>
+        <div class="slides-circles">
+          <div data-active-slide></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/19479502/pexels-photo-19479502/free-photo-of-a-woman-in-a-jacket-and-jeans-crossing-the-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <h1>Card One</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis...
+                </p>
+        
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/19137934/pexels-photo-19137934/free-photo-of-woman-in-lace-white-top-sitting-on-step-by-door.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <h1>Card Two</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis...
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/18038137/pexels-photo-18038137/free-photo-of-brunette-woman-in-leather-coat-sitting-with-camera-in-hand.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                <h1>Card Three</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis...
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/17756697/pexels-photo-17756697/free-photo-of-portrait-of-woman-on-meadow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                <h1>Card Four</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis...
+                </p>
+            </div>
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
